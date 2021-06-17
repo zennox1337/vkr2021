@@ -1,0 +1,51 @@
+.hideGraph {
+    visibility: hidden;
+    height: 0;
+    .audioContainer {
+        padding-bottom: 0px;
+    }
+}
+
+.showGraph {
+    visibility: inherit;
+    height: 40px;
+    .audioContainer {
+        padding-bottom: 45px;
+    }
+}
+
+.audioContainer {
+    position: relative;
+    audio {
+        display: none;
+    }
+    canvas {
+        border-radius: 55px;
+        height: 24px !important;
+        width: 100% !important;
+    }
+}
+
+.voicemessage {
+    display: flex;
+    position: relative;
+    height: auto;
+    min-width: 70px;
+    .styles_reactWaves__1M36F {
+        margin: 0 auto !important;
+        padding: 0px !important;
+    }
+    .play.button {
+        cursor: pointer;
+    }
+}
+
+.showAudioForm {
+    visibility: visible !important;
+    position: relative !important;
+}
+
+.hideAudioForm {
+    visibility: hidden;
+    position: absolute;
+}

@@ -1,0 +1,34 @@
+.ListDialogs__dialogs {
+    h3 {
+        margin: 0;
+    }
+    p {
+        margin: 0;
+    }
+    .ant-avatar {
+        margin-right: 10px;
+    }
+    .dialogs__username {
+        text-transform: capitalize;
+        color: #252424;
+    }
+    .dialogs__pastmessage {
+        color: silver;
+        width: 100%;
+        height: 19px;
+        overflow: hidden;
+    }
+    .dialog__item {
+        margin-bottom: 20px;
+        transition: 0.3s all ease;
+        &:hover {
+            opacity: 0.75;
+        }
+        &.active {
+            opacity: 0.50;
+        }
+    }
+    .ant-avatar {
+        margin-right: 10px;
+    }
+}

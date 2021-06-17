@@ -1,0 +1,18 @@
+.messages__header {
+    h3 {
+        margin: 0;
+    }
+    p {
+        margin: 0;
+    }
+    .messages__currentName {
+        font-size: 15px;
+        font-weight: bolder;
+        text-transform: capitalize;
+        color: #000000b8;
+    }
+    .messages__isonline {
+        color: #65646470;
+        font-weight: bold;
+    }
+}

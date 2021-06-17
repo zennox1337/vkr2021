@@ -1,0 +1,26 @@
+.header__dialogs {
+    h3 {
+        margin: 0;
+    }
+    p {
+        margin: 0;
+    }
+    .ant-avatar {
+        margin-right: 10px;
+    }
+    .profile__name {
+        text-transform: capitalize;
+        color: #252424;
+    }
+    .profile__online {
+        color: silver;
+    }
+    .anticon-menu {
+        color: silver;
+        cursor: pointer;
+        transition: 0.6s all ease;
+        &:hover {
+            color: #888686;
+        }
+    }
+}

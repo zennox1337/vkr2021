@@ -1,0 +1,60 @@
+.maxHeight__sendForm {
+    height: 100px;
+    margin-bottom: 10px;
+    background: #f7f7f77a;
+    padding: 10px;
+    .showLoadingProcess {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: #f0f8ff80;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999999;
+    }
+}
+
+.messages__sendforms {
+    .img__preview {
+        overflow: hidden;
+        position: absolute;
+        img {
+            max-height: 100px;
+            cursor: pointer;
+        }
+    }
+    textarea {
+        padding-right: 65px;
+    }
+    .sendMethods {
+        position: absolute;
+        bottom: 40px;
+        right: 0;
+        .sendMethods-items {
+            z-index: 2;
+            position: absolute;
+            display: flex;
+            right: 0;
+            margin-top: 10px;
+            margin-right: 20px;
+            span {
+                margin-right: 5px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.sendButton {
+    height: 100%;
+    align-items: flex-end;
+    display: flex;
+    z-index: 999999;
+    justify-content: center;
+    span {
+        padding-bottom: 10px;
+    }
+}

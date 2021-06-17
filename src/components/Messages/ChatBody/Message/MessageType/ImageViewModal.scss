@@ -1,0 +1,10 @@
+.imageview__modal {
+    .ant-modal-body {
+        overflow: hidden !important;
+        img {
+            max-width: 80% !important;
+            display: flex;
+            margin: 0 auto;
+        }
+    }
+}

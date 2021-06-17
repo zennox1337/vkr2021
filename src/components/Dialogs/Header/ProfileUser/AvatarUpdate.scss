@@ -1,0 +1,22 @@
+.fileInputAvatar {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+    input {
+        height: 40px !important;
+        width: 40px !important;
+        opacity: 0 !important;
+    }
+    input[type="file" i] {
+        cursor: pointer !important;
+        opacity: 0 !important;
+    }
+    input[type=file],
+    /* FF, IE7+, chrome (except button) */
+    input[type=file]::-webkit-file-upload-button {
+        /* chromes and blink button */
+        cursor: pointer !important;
+    }
+}

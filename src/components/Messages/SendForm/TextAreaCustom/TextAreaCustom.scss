@@ -1,0 +1,21 @@
+.wrapper__textAreaCustom {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.TextAreaCustom {
+    border: 1px solid rgba(192, 192, 192, 0.52);
+    padding: 5px 75px 5px 15px;
+    overflow: auto;
+    min-height: 60px;
+    max-height: 100px;
+    height: auto;
+    resize: auto;
+    min-width: 100%;
+    max-width: 100%;
+    .DraftEditor-root {
+        min-height: 48px;
+        max-height: 100px;
+    }
+}

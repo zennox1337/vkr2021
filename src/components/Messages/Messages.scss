@@ -1,0 +1,20 @@
+.messages {
+    // overflow: hidden;
+    .messages__header {
+        background: white;
+        padding: 10px;
+        padding-left: 20px;
+        height: 70px;
+    }
+    .messages__body {
+        padding-top: 20px;
+        z-index: 0;
+        padding-bottom: 20px;
+        overflow: auto;
+        background-color: #fff;
+        .messages__body__height {
+            height: 70vh;
+            width: 100%;
+        }
+    }
+}

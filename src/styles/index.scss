@@ -1,0 +1,31 @@
+@import '~antd/dist/antd.css';
+body,
+html,
+#root,
+.wrapper {
+    height: 100%;
+    color: #202020;
+}
+
+.container {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@font-face {
+    font-family: 'Raleway-Regular';
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Raleway-Medium';
+    src: url(../fonts/Raleway-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Raleway-Bold';
+    src: url(../fonts/Raleway-Bold.ttf);
+}
+body {
+    background-color: #F8F8F8;
+}
